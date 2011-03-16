@@ -12,4 +12,6 @@ rake
 popd
 
 echo "Sprocketing butterfly.js"
+vendor/sprockets/bin/sprocketize -I vendor/prototype/src/prototype src/main.js >butterfly.js
 
+echo "All done, you now have butterfly.js"
